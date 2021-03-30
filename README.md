@@ -1,5 +1,6 @@
 # ActionFilters
 Code Maze exercise
+
 Filters are hooks that executed before and after [global context, controller  and action level]
 in this repo, the examples was on Action filters 
 ActionFilters implements the IActionFilter interface that expses two methods:
