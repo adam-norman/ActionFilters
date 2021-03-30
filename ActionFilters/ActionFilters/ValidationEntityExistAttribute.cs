@@ -32,7 +32,7 @@ namespace ActionFilters.ActionFilters
             }
             else
             {
-                context.Result = new BadRequestObjectResult("Object is null");
+                context.Result = new BadRequestObjectResult("Invalid id parameter");
             }
             var entity = dbcontext.Set<T>().SingleOrDefault(x => x.Id.Equals(id));
             if (entity == null)
