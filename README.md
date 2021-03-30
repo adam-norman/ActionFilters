@@ -6,7 +6,9 @@ Filters are hooks that executed before and after [global context, controller  an
 In this repo, the examples is about ActionFilters 
 
 ActionFilters implements the IActionFilter interface that exposes two methods:
+
 1-OnActionExecuting // is executed before action
+
 2-OnActionExecuted  // is executed after the action
 
 ActionsFilters Urges on DRY principle of the clean code
